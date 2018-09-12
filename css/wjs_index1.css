@@ -1,0 +1,36 @@
+.product {
+  overflow: hidden;
+  background-color: #dddddd;
+}
+.product .container {
+  margin-bottom: 20px;
+}
+.product .nav-tabs {
+  border-bottom: 1px solid #cccccc;
+}
+.product .nav-tabs > li {
+  margin-top: 20px;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+.product .nav-tabs > li.active a {
+  background-color: #dddddd;
+  border-bottom: 3px solid #e92322;
+}
+.product .nav-tabs > li > a,
+.product .nav-tabs > li a:hover,
+.product .nav-tabs > li a:focus {
+  border: none;
+  border-radius: 0;
+}
+.product .nav-tabs > li a {
+  box-sizing: border-box;
+  padding: 25px 15px;
+}
+.product .nav-tabs > li a:hover {
+  background-color: #dddddd;
+  border-bottom: 3px solid #e92322;
+}
+.product .nav-tabs > li a:focus {
+  border-bottom: 3px solid #e92322;
+}

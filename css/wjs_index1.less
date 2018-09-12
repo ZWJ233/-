@@ -1,0 +1,99 @@
+@color:#e92322;
+.product{
+  overflow: hidden;
+  background-color: #dddddd;
+  .container{
+    margin-bottom: 20px;
+  }
+  .nav-tabs{
+    border-bottom: 1px solid #cccccc;
+    >li{
+      margin-top: 20px;
+      padding: 0 10px;
+      margin-bottom: 0;
+      &:hover{
+
+      }
+      &.active a{
+        background-color: #dddddd;
+        border-bottom: 3px solid @color;
+      }
+      >a,a:hover,a:focus{
+        border: none;
+        border-radius: 0;
+      }
+      a{
+        box-sizing: border-box;
+        padding: 25px 15px;
+        &:hover{
+          background-color: #dddddd;
+          border-bottom: 3px solid @color;
+        }
+        &:focus{
+          border-bottom: 3px solid @color;
+        }
+      }
+    }
+  }
+  //.tab-content{
+  //  position: relative;
+  //  .tab-pane{
+  //    >.container>.row>div{
+  //      margin-top: 20px;
+  //      padding: 0;
+  //    }
+  //  }
+  //  .product-box-left{
+  //    margin-right: 100px;
+  //    background-color: #fff;
+  //    >p{
+  //      text-align: center;
+  //      font-size: 16px;
+  //    }
+  //    .row div{
+  //      padding-left: 20px;
+  //      font-size: 12px;
+  //      &:nth-child(2n){
+  //        text-align: right;
+  //        padding-right: 20px;
+  //      }
+  //    }
+  //  }
+  //  .product-box-right{
+  //    text-align: center;
+  //    background-color: #fff;
+  //    position: absolute;
+  //    width: 100px;
+  //    top: 0;
+  //    right: 0;
+  //    height: 100%;
+  //    border-left: 1px dashed #ccc;
+  //    padding-top: 20px;
+  //    >b{
+  //      font-size: 40px;
+  //    }
+  //    &::before{
+  //      content: "";
+  //      width: 10px;
+  //      height: 10px;
+  //      border-radius: 50%;
+  //      background-color: #dddddd;
+  //      position: absolute;
+  //      top: -5px;
+  //      left: -5px;
+  //      box-shadow: 0 -1px -1px #cccccc inset;
+  //    }
+  //    &::after{
+  //      content: "";
+  //      width: 10px;
+  //      height: 10px;
+  //      border-radius: 50%;
+  //      background-color: #dddddd;
+  //      position: absolute;
+  //      bottom: -5px;
+  //      left: -5px;
+  //      box-shadow: 0 1px 1px #ccc inset;
+  //    }
+  //  }
+  //}
+}
